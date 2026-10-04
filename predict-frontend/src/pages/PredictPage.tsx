@@ -20,8 +20,9 @@ import {
     Model,
 } from "../types/car";
 
-const localServer = "http://127.0.0.1:8000/predict"
-const API_URL = localServer;
+// const localServer = "http://127.0.0.1:8000/predict"
+const varcelServer = "https://car-prediction-o52s.vercel.app/predict" 
+const API_URL = varcelServer;
 
 const STEP_LABELS = ["Vehicle Basics", "Specifications", "Review & Predict"];
 
